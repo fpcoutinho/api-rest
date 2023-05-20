@@ -8,6 +8,6 @@ import (
 
 func main() {
 	database.ConnectDB()
-	fmt.Println("Servidor online em http://localhost:3000")
+	fmt.Println("Servidor online em http://localhost:8000")
 	routes.HandleRequest()
 }

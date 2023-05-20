@@ -11,7 +11,7 @@ import (
 )
 
 func Home(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("Hello World"))
+	w.Write([]byte("Bem vindo a API de personalidades!\nAcesse /api/personalidades para ver todas as personalidades cadastradas.\nAcesse /api/personalidades/:id para ver uma personalidade específica.\n"))
 }
 
 func Personalidade(w http.ResponseWriter, r *http.Request) {
